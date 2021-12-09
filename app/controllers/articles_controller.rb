@@ -48,9 +48,9 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
   end
 
-  def article_params
-    params.require(:article).permit(:title, :description, :category_ids, :image)
-  end
+  
+  
+  
 
   def require_same_user
     if current_user != @article.user && !current_user.admin?
