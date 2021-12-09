@@ -1,0 +1,124 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+  background-color: black !important;
+  font-family: "Comic Sans MS";
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  font-family: "Comic Sans MS";
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.avatar{
+  border-radius: 50% !important;
+  margin-right: 10px;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+a.btn.btn-success.btn-lg {
+  background-color: black !important;
+  border-color: white !important;
+}
+a.btn.btn-success.btn-lg:hover {
+  background-color: black !important;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+  color: white;
+  background-color: black !important;
+  border-color: white !important;
+}
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+  background-color: black !important;
+}
+
+
+.jumbotron {
+  background-image: url(https://advsolutions.vn/wp-content/uploads/2019/12/background-powerpoint-cong-nghe-13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  padding-top: 150px;
+  margin-top: 40px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: #e4e973a3;
+}
+
+h1.text-center.mt-4 {
+    font-family: "Comic Sans MS";
+}
+
+#sticky-footer {
+  background-color: black !important;
+  flex-shrink: none;
+}
+
+form.shadow.p-3.mb-3.bg-info.rounded {
+  background-image: url(https://advsolutions.vn/wp-content/uploads/2019/12/background-powerpoint-cong-nghe-13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.card-body .text-left{
+  padding-left: 30px;
+}
+
+
+/* pagination styling */
+
+.flickr_pagination {
+  text-align: center;
+  padding: 0.3em;
+  cursor: default; }
+  .flickr_pagination a, .flickr_pagination span, .flickr_pagination em {
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+   }
+  .flickr_pagination .disabled {
+    color: #aaaaaa; }
+  .flickr_pagination .current {
+    font-style: normal;
+    font-weight: bold;
+    color: #ff0084; }
+  .flickr_pagination a {
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none; }
+    .flickr_pagination a:hover, .flickr_pagination a:focus {
+      border-color: gray;
+      background: whitesmoke;
+      color: gray; }
+  .flickr_pagination .page_info {
+    color: #aaaaaa;
+    padding-top: 0.8em; }
+  .flickr_pagination .previous_page, .flickr_pagination .next_page {
+    border-width: 2px; }
+  .flickr_pagination .previous_page {
+    margin-right: 1em; }
+  .flickr_pagination .next_page {
+    margin-left: 1em; }
