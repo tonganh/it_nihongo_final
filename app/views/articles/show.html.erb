@@ -10,9 +10,9 @@
         </div>
         <div class="card-body">
           <div class="card-text text-left"><%= simple_format(@article.description) %></div>
-           <% if @article.categories.any? %>
-            <p class="card-text text-left">Category: <%= render @article.categories %></p> 
-           <% end %> 
+           <%  if @article.categories.any?  %>         
+            <p  class="card-text text-left">Category: <%= render @article.categories %></p> 
+           <%  end  %> 
           <p>
             <% if @article.image.attached? %>
                <%= image_tag @article.image %>
