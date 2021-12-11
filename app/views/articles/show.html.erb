@@ -13,9 +13,9 @@
            <% if @article.categories.any? %>
             <p class="card-text text-left">Category: <%= render @article.categories %></p> 
            <% end %> 
-          <p>
+           <p>
             <% if @article.image.attached? %>
-               <%= image_tag @article.image %>
+                <%= image_tag @article.image %>
             <% end %>
           </p>
           <% if logged_in? && (@article.user == current_user || current_user.admin?) %>
