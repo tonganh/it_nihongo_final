@@ -14,6 +14,7 @@
             <p class="card-text text-left">Category: <%= render @article.categories %></p> 
            <% end %> 
            <p>
+
             <% if @article.image.attached? %>
                 <%= image_tag @article.image %>
             <% end %>
