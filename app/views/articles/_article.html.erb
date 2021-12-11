@@ -12,7 +12,9 @@
           <div class="card-body">
             <h5 class="card-title text-left">Title: <%= link_to article.title, article_path(article), class: "text-success" %></h5>
             <p class="card-text text-left">Content: <%= truncate(article.description, length: 100) %></p>
-           
+           <% if article.categories.any? %>
+              <p class="card-text text-left">Category: <%= render article.categories %></p> 
+            <% end %>  
             <%= link_to "View", article_path(article), class: "btn btn-outline-success" %>
             <% if logged_in? && (article.user == current_user || current_user.admin?) %>
               <%= link_to "Edit", edit_article_path(article), class: "btn btn-outline-info" %>
