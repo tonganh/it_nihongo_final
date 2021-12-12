@@ -1,7 +1,7 @@
 class Article < ApplicationRecord
   # mot article chi thuoc ve mot user
   belongs_to :user
-  has_one_attached :image
+  
 
   has_many  :article_categories
   has_many  :categories, through: :article_categories
